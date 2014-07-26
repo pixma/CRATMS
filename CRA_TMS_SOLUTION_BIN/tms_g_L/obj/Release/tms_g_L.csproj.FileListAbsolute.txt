@@ -1,0 +1,10 @@
+F:\CRA_TMS_SOLUTION_BIN\tms_g_L\bin\Release\tms_g_L.dll
+F:\CRA_TMS_SOLUTION_BIN\tms_g_L\bin\Release\tms_g_L.pdb
+F:\CRA_TMS_SOLUTION_BIN\tms_g_L\obj\Release\ResolveAssemblyReference.cache
+F:\CRA_TMS_SOLUTION_BIN\tms_g_L\obj\Release\tms_g_L.dll
+F:\CRA_TMS_SOLUTION_BIN\tms_g_L\obj\Release\tms_g_L.pdb
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\tms_g_L\bin\Release\tms_g_L.dll
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\tms_g_L\bin\Release\tms_g_L.pdb
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\tms_g_L\obj\Release\ResolveAssemblyReference.cache
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\tms_g_L\obj\Release\tms_g_L.dll
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\tms_g_L\obj\Release\tms_g_L.pdb

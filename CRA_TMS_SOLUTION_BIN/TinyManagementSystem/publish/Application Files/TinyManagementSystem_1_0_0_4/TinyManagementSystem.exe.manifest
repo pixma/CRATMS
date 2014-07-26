@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="TinyManagementSystem.exe" version="1.0.0.4" publicKeyToken="d768068b7b61fcec" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Resources\CRA_TinyManagemntSystem_ICONSET.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TinyManagementSystem" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="TinyManagementSystem.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.SqlServerCe" version="3.5.1.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TinyManagementSystem.exe" size="106496">
+      <assemblyIdentity name="TinyManagementSystem" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>JvxgcgydY/kc1MSQtPrQwXDGfRo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tms_admin_proc.dll" size="37888">
+      <assemblyIdentity name="tms_admin_proc" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>LVpeCdkEWAYsVTd7pO9EocBE+C0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tms_crt_pb.dll" size="33792">
+      <assemblyIdentity name="tms_crt_pb" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7Wki1sYtIipi0ULyp5TvpOSUYsk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tms_g_L.dll" size="4096">
+      <assemblyIdentity name="tms_g_L" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>inQpiSF2UMHHqOzxQhMJh4xAQPU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tms_spl.dll" size="798208">
+      <assemblyIdentity name="tms_spl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>lxsOolIWTRqDzsQRJgKnb4m0Jl8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="tms_wb_ui.dll" size="1188864">
+      <assemblyIdentity name="tms_wb_ui" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>dEprWPARHtuINIlNP5bSuB5gE1A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\CRA_TinyManagemntSystem_ICONSET.ico" size="49312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AWB+F2rfDdwwbEMnWFbE30PgqJg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Annim-Desktop\Annim" issuerKeyHash="bfa866ea2d98ade9707aa860a3a0a39b6c0c16d9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>VV/ehjELti1/umygZbq/kEIDykI=</DigestValue></Reference></SignedInfo><SignatureValue>By5qk+IdapNUcP5fHIr7e39Fmpba4xQ1YHNziDatrtWj6mKXEGYW8LobgUyIODpZzB/ssYmc5M7fi0Ai4lI+t9QRh6gMGlaNupO8q9dkBWEQ3wAcfNuN8WGMXhli7YoZ5OKm4dz5Hi6RicT3GyGffCIQ4g4GiMclaLAkrgWTVPA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5e4bmSxNQdG3+zlIfD5DwGVISR2M35tC1g94xC+IFw12O5/3hlxZcPq6bhsrvjrVu7LnppXsZ30DhD/3Owegpj5677ESBiuiQqs15Nk0Tkk9Vura4+CsRygc54ze5vRC9qmyLTjHjyxFyAnggrwKzFmL9Xsy7mMqMm3bYPc14Ec=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="42ca034290bfba65a06cba7f2db60b3186de5f55" Description="" Url=""><as:assemblyIdentity name="TinyManagementSystem.exe" version="1.0.0.4" publicKeyToken="d768068b7b61fcec" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Annim-Desktop\Annim</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>7UekV48fpkxThGE4oO0yJvsT+5Y=</DigestValue></Reference></SignedInfo><SignatureValue>jvjq7Ty7rYBn+oOUpSvnAzBE/vvJOFEhP/Qc1NwrRMsa88Ffs7n9bdAKIedZ/1zgpaTgzf9RaBTHivFhcb1qyFQ6rPQds8Njc5P3KUWqAxSOeoXlnDJLfe9Iv0YjBC9pJJlfl43Tp5HZBTCPOyKrcGLqdd5JZzRU0+bZR+HgVGU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5e4bmSxNQdG3+zlIfD5DwGVISR2M35tC1g94xC+IFw12O5/3hlxZcPq6bhsrvjrVu7LnppXsZ30DhD/3Owegpj5677ESBiuiQqs15Nk0Tkk9Vura4+CsRygc54ze5vRC9qmyLTjHjyxFyAnggrwKzFmL9Xsy7mMqMm3bYPc14Ec=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQZ5fg4uM4C49IjjRM/xC5mDANBgkqhkiG9w0BAQUFADAxMS8wLQYDVQQDHiYAQQBuAG4AaQBtAC0ARABlAHMAawB0AG8AcABcAEEAbgBuAGkAbTAeFw0xMTAxMjIxNDIwMzdaFw0xMjAxMjIyMDIwMzdaMDExLzAtBgNVBAMeJgBBAG4AbgBpAG0ALQBEAGUAcwBrAHQAbwBwAFwAQQBuAG4AaQBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDl7huZLE1B0bf7OUh8PkPAZUhJHYzfm0LWD3jEL4gXDXY7n/eGXFlw+rpuGyu+OtW7suemlexnfQOEP/c7B6CmPnrvsRIGK6JCqzXk2TROST1W6trj4KxHKBznjN7m9EL2qbItOMePLEXICeCCvArMWYv1ezLuYyoybdtg9zXgRwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAONNWXlNPTDE06hhJ4urSAUc8BSuTee27Wi1theQjf5pZMrilMc0v1sSYTrwLRodDVyqiLtzQMPmtz5QPvFJn8UsV8DpfuJZA6CbCQPXiZoSovwUdwxE5kFOUFPsLH1w+hJgBsbhFs0wkEgWXL3yBKx0JqnrvHKc6/qvqVVjiUYs</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,14 @@
+F:\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\bin\Debug\TMS_DATABASE_LOCAL_RESIDE.sdf
+F:\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\bin\Debug\bck_end_tms_proc.dll.config
+F:\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\bin\Debug\bck_end_tms_proc.dll
+F:\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\bin\Debug\bck_end_tms_proc.pdb
+F:\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\obj\Debug\ResolveAssemblyReference.cache
+F:\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\obj\Debug\bck_end_tms_proc.dll
+F:\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\obj\Debug\bck_end_tms_proc.pdb
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\bin\Debug\TMS_DATABASE_LOCAL_RESIDE.sdf
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\bin\Debug\bck_end_tms_proc.dll.config
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\bin\Debug\bck_end_tms_proc.dll
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\bin\Debug\bck_end_tms_proc.pdb
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\obj\Debug\ResolveAssemblyReference.cache
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\obj\Debug\bck_end_tms_proc.dll
+D:\CRA_TMS_SOLUTION_BIN\CRA_TMS_SOLUTION_BIN\bck_end_tms_proc\obj\Debug\bck_end_tms_proc.pdb
